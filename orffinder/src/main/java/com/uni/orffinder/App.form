@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="pnlGenerateSequences" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                      <Component id="btnRelationsData" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="pnlGenerateSequences" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnRelationsData" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlGenerateSequences">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="generateSequencesPane" noResource="true"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="generateSequencesPane"/>
+      </AccessibilityProperties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane1" alignment="0" min="-2" pref="1017" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="lblGenerateSequences" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lblNumberOfSequences" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lblNumberOfBases" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="fldNumberOfSequences" pref="113" max="32767" attributes="0"/>
+                                                  <Component id="fldNumberOfBasesMultiple" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="lblPathMultiple" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="fldPathMultiple" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                                      <Component id="btnReadMultiple" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="btnGenerateMultiple" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="cbIncludeReverseBases" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="btnSearchCodons" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSearchCodon" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="fldCodonToSearch" min="-2" pref="40" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="fldNumberOfCodons" min="-2" pref="69" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                          <Component id="btnPickORF" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                          <Component id="fldORFLength" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblPickSpecificORF" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="lblNumberORFPick" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblSequenceNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="fldORFNumberPick" pref="86" max="32767" attributes="0"/>
+                                                      <Component id="fldSequenceNumber" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                                  <Component id="lblORFLength" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="fldORFPosition" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lblPosition" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblReverse" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fldORFReverse" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblCWeight" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAWeight" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="fldCWeight" alignment="0" pref="66" max="32767" attributes="0"/>
+                                      <Component id="fldAWeight" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="sldAWeight" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="lblLengthBiggestORF" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="sldCWeight" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="lblPositionLongestORF" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="fldLengthBiggestOrf" alignment="1" pref="87" max="32767" attributes="0"/>
+                                              <Component id="fldPositionLongestORFSequence" alignment="1" pref="87" max="32767" attributes="0"/>
+                                              <Component id="fldAvgLengthORFs" alignment="1" pref="87" max="32767" attributes="0"/>
+                                              <Component id="fldAvgNumberORFs" alignment="1" pref="87" max="32767" attributes="0"/>
+                                              <Component id="fldSequenceLength" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblATWeights" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnShowRelationsPairsSampled" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnShowRelationsSingelSampled" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblTWeight" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="fldTWeight" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblGWeight" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Component id="fldGWeight" min="-2" pref="66" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="sldGWeight" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="lblAvgLengthORFs" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="sldTWeight" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblSequenceLength" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblAvgNumberOrf" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="btnDefault" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblGenerateSequences" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblPickSpecificORF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSearchCodon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblNumberOfSequences" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldNumberOfSequences" alignment="3" max="-2" attributes="0"/>
+                              <Component id="lblPathMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldPathMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldCodonToSearch" alignment="3" max="32767" attributes="0"/>
+                              <Component id="fldNumberOfCodons" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblNumberOfBases" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldNumberOfBasesMultiple" alignment="3" max="32767" attributes="0"/>
+                              <Component id="btnReadMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnGenerateMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbIncludeReverseBases" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblSequenceNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldSequenceNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="lblORFLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPosition" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblReverse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblNumberORFPick" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fldORFNumberPick" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="btnSearchCodons" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnPickORF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fldORFLength" alignment="3" max="32767" attributes="0"/>
+                              <Component id="fldORFPosition" alignment="3" max="32767" attributes="0"/>
+                              <Component id="fldORFReverse" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldAWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldAWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblLengthBiggestORF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldLengthBiggestOrf" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblCWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldCWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldCWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblPositionLongestORF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldPositionLongestORFSequence" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="fldGWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldGWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAvgLengthORFs" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldAvgLengthORFs" alignment="3" max="32767" attributes="0"/>
+                      <Component id="lblGWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldTWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldTWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAvgNumberOrf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldAvgNumberORFs" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnDefault" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSequenceLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fldSequenceLength" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblATWeights" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnShowRelationsPairsSampled" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnShowRelationsSingelSampled" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnGenerateMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Generate"/>
+            <Property name="name" type="java.lang.String" value="btnGenerateMultiple" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGenerateMultipleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldNumberOfSequences">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+            <Property name="name" type="java.lang.String" value="numberOfSequencesFld" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldNumberOfSequencesActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNumberOfSequences">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="number of Sequences"/>
+            <Property name="name" type="java.lang.String" value="numberOfSequencesLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblGenerateSequences">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="generate multiple Sequences"/>
+            <Property name="name" type="java.lang.String" value="generateSequencesLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNumberOfBases">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="number of bases"/>
+            <Property name="name" type="java.lang.String" value="numberOfBasesLbl" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldNumberOfBasesMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1000"/>
+            <Property name="name" type="java.lang.String" value="numberOfSequencesFld" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="areaResultMultiple">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="autoscrolls" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="generateSequenceResultFld" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblAWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A Weight"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C Weight"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblGWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G Weight"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldAWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldAWeightActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldCWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldCWeightActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldGWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldGWeightActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLengthBiggestORF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length of the Biggest ORF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldLengthBiggestOrf">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnReadMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Read"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnReadMultipleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldPathMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="./Data/example.fa"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPathMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Path"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSlider" name="sldAWeight">
+          <Properties>
+            <Property name="minimum" type="int" value="1"/>
+            <Property name="value" type="int" value="25"/>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sldAWeightStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSlider" name="sldCWeight">
+          <Properties>
+            <Property name="minimum" type="int" value="1"/>
+            <Property name="value" type="int" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sldCWeightStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSlider" name="sldGWeight">
+          <Properties>
+            <Property name="minimum" type="int" value="1"/>
+            <Property name="value" type="int" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sldGWeightStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPositionLongestORF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sequence with Longest Orf"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldPositionLongestORFSequence">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAvgLengthORFs">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Avg length Orfs"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldAvgLengthORFs">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPickSpecificORF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pick Specific ORF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbIncludeReverseBases">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="include reverse Bases"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNumberORFPick">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldORFNumberPick">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPickORF">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pick"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPickORFActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSequenceNumber">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sequence"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldSequenceNumber">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldSequenceNumberActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblORFLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldORFLength">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldORFPosition">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPosition">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Position"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldORFReverse">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblReverse">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Reverse?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnShowRelationsPairsSampled">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="show ORF-Values of pairs from sampled Data"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnShowRelationsPairsSampledActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblATWeights">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ORFs with different AT weights"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ORFs with different base weights"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnShowRelationsSingelSampled">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="show ORF-Values of Singel from sampled Data"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnShowRelationsSingelSampledActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="T Weight"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldTWeight">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fldTWeightActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSlider" name="sldTWeight">
+          <Properties>
+            <Property name="minimum" type="int" value="1"/>
+            <Property name="value" type="int" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sldTWeightStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAvgNumberOrf">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Avg number Orfs"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldAvgNumberORFs">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDefault">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Set to default"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDefaultActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSearchCodons">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSearchCodonsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSearchCodon">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Search average number of Codons"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldCodonToSearch">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ATG"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldNumberOfCodons">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSequenceLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Avg Sequence Length"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fldSequenceLength">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnRelationsData">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="show ORF-Values of the current Data"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRelationsDataActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

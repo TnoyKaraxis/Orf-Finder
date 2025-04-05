@@ -1,0 +1,46 @@
+Ecoli yfaL 3759_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Gene/Summary?db=core;g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:93005-96763;t=ENSB:NPes4wWiR8R7Dn0
+Ecoli napA 2487_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Gene/Summary?db=core;g=ENSB:dYAl_fg24nYOHWm;r=N33561PS_contig_69:133861-136347;t=ENSB:dYAl_fg24nYOHWm
+Ecoli nuoG 2727_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Gene/Summary?db=core;g=ENSB:TKfqq43KUzIpAef;r=N33561PS_contig_69:45642-48368;t=ENSB:TKfqq43KUzIpAef
+Ecoli arnA 1983_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Gene/Summary?db=core;g=ENSB:3UASlpPYb89lFVp;r=N33561PS_contig_69:71362-73344;t=ENSB:3UASlpPYb89lFVp
+Ecoli nrdA 2286_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Gene/Summary?db=core;g=ENSB:1XfPwMxEC5HOlPx;r=N33561PS_contig_69:90030-92315;t=ENSB:1XfPwMxEC5HOlPx
+Ecoli fadE 2445_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Gene/Summary?db=core;g=ENSB:Ba4WC1ZM49MxKLe;r=Chromosome:257510-259954;t=ENSB:Ba4WC1ZM49MxKLe
+Ecoli ecpC 2526_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Gene/Summary?db=core;g=ENSB:7-2EKMPiDAas08c;r=Chromosome:331744-334269;t=ENSB:7-2EKMPiDAas08c
+Ecoli betT 2034_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Gene/Summary?db=core;g=ENSB:jREIic3jN_7oMIN;r=Chromosome:363454-365487;t=ENSB:jREIic3jN_7oMIN
+Ecoli lacZ 3075_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Gene/Summary?db=core;g=ENSB:ytroXiGYO6s3-LB;r=Chromosome:392151-395225;t=ENSB:ytroXiGYO6s3-LB
+Ecoli sbcC 3144_basen https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Gene/Summary?db=core;g=ENSB:xj9oqTVgPmhtfiz;r=Chromosome:434757-437900;t=ENSB:xj9oqTVgPmhtfiz
+
+Ecoli Area 10000_basen 	https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Location/View?g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:80000-89999;t=ENSB:NPes4wWiR8R7Dn0
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Location/View?g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:40000-49999;t=ENSB:NPes4wWiR8R7Dn0
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Location/View?g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:10000-19999;t=ENSB:NPes4wWiR8R7Dn0
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Location/View?g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:60000-69999;t=ENSB:NPes4wWiR8R7Dn0
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000798515/Location/View?g=ENSB:NPes4wWiR8R7Dn0;r=N33561PS_contig_69:100000-109999;t=ENSB:NPes4wWiR8R7Dn0
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Location/View?r=Chromosome:260000-269999
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Location/View?r=Chromosome:560000-569999
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Location/View?r=Chromosome:1200000-1209999
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Location/View?r=Chromosome:1800000-1809999
+			https://bacteria.ensembl.org/Escherichia_coli_gca_000931565/Location/View?r=Chromosome:3000000-3009999
+
+Human CH 17 Area 10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=17:60000000-60009999
+Human CH 14 Area 10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=14:60000000-60009999
+Human CH 10 Area 10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=10:20000000-20009999
+Human CH 20 Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=20:50000000-50009999 
+Human CH 3  Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=3:100000000-100009999
+Human CH 5  Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=5:43900000-43909999
+Human CH 7  Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=7:33900000-33909999
+Human CH 8  Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=8:74900000-74909999
+Human CH 15 Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=15:93990000-93999999
+Human CH 16 Area_10000_basen https://www.ensembl.org/Homo_sapiens/Location/View?r=16:80000000-80009999
+
+Human Gene 1: https://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000205325;mr=17:13750211-14074221;r=17:14767583-14780203;t=ENST00000379640
+
+Exons/Introns:
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000205325;mr=17:13750211-14074221;r=17:14767583-14780203;t=ENST00000379640
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000237377;mr=17:13750211-14074221;r=17:15273214-15293677;t=ENST00000833212
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000233002;mr=17:13750211-14074221;r=17:15732969-15767074;t=ENST00000717554
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000250981;mr=5:13750211-14074221;r=5:16126557-16163391;t=ENST00000757738
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000229108;mr=5:13750211-14074221;r=7:15674306-15739790;t=ENST00000812558
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000225652;mr=10:13750211-14074221;r=10:77346734-77379475;t=ENST00000675923
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000290735;r=1:143873136-143907924;t=ENST00000669710
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000259595;r=15:44403338-44429940;t=ENST00000558047
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000257837;r=12:82480886-82508852;t=ENST00000716274
+https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000229005;r=20:44357977-44400268;t=ENST00000735375
