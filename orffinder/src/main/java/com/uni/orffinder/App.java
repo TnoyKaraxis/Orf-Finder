@@ -245,7 +245,7 @@ public class App extends javax.swing.JFrame {
 
         lblReverse.setText("Reverse?");
 
-        btnShowRelationsPairsSampled.setText("show ORF-Values of pairs from sampled Data");
+        btnShowRelationsPairsSampled.setText("show ORF-Values of different AT-concentrations from sampled Data");
         btnShowRelationsPairsSampled.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnShowRelationsPairsSampledActionPerformed(evt);
@@ -256,7 +256,7 @@ public class App extends javax.swing.JFrame {
 
         jLabel1.setText("ORFs with different base weights");
 
-        btnShowRelationsSingelSampled.setText("show ORF-Values of Singel from sampled Data");
+        btnShowRelationsSingelSampled.setText("show ORF-Values of different singel base concentrations from sampled Data");
         btnShowRelationsSingelSampled.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnShowRelationsSingelSampledActionPerformed(evt);
@@ -552,7 +552,7 @@ public class App extends javax.swing.JFrame {
                         .addGap(15, 15, 15)
                         .addComponent(pnlGenerateSequences, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(220, 220, 220)
+                        .addGap(347, 347, 347)
                         .addComponent(btnRelationsData)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );

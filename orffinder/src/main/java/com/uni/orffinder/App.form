@@ -30,7 +30,7 @@
                       <Component id="pnlGenerateSequences" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="347" max="-2" attributes="0"/>
                       <Component id="btnRelationsData" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -602,7 +602,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnShowRelationsPairsSampled">
           <Properties>
-            <Property name="text" type="java.lang.String" value="show ORF-Values of pairs from sampled Data"/>
+            <Property name="text" type="java.lang.String" value="show ORF-Values of different AT-concentrations from sampled Data"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnShowRelationsPairsSampledActionPerformed"/>
@@ -620,7 +620,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnShowRelationsSingelSampled">
           <Properties>
-            <Property name="text" type="java.lang.String" value="show ORF-Values of Singel from sampled Data"/>
+            <Property name="text" type="java.lang.String" value="show ORF-Values of different singel base concentrations from sampled Data"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnShowRelationsSingelSampledActionPerformed"/>
